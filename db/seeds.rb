@@ -11,18 +11,24 @@ users = User.create([
     email: 'test00@mail.com',
     name: 'test00',
     activated: DateTime.now,
-    admin: false
+    admin: false,
+    password_digest: '123123',
+    authentication_token: '123123123123'
   },
   {
     email: 'test01@mail.com',
     name: 'test01',
     activated: DateTime.now,
-    admin: false
+    admin: false,
+    password_digest: '123123',
+    authentication_token: '123123123123'
   },
   {
     email: 'test02@mail.com',
     name: 'test02',
     activated: DateTime.now,
-    admin: false
+    admin: false,
+    password_digest: '123123',
+    authentication_token: '123123123123'
   }
 ])

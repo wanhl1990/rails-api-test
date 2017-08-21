@@ -1,0 +1,16 @@
+current directory: /home/venus/ruby/webscan-api/app/docs/slate/gems/gems/unf_ext-0.0.7.4/ext/unf_ext
+/usr/bin/ruby2.3 -r ./siteconf20170817-20712-1l8moyi.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /home/venus/ruby/webscan-api/app/docs/slate/gems/gems/unf_ext-0.0.7.4/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/venus/ruby/webscan-api/app/docs/slate/gems/gems/unf_ext-0.0.7.4/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/venus/ruby/webscan-api/app/docs/slate/gems/gems/unf_ext-0.0.7.4/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20170817-20712-19t9m9x
